@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f7b2"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <EditText
+        android:id="@+id/edit_text_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your house" />
+
+    <EditText
+        android:id="@+id/edit_text_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your city" />
+
+    <EditText
+        android:id="@+id/edit_text_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your country" />
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Next" />
+
+</LinearLayout>

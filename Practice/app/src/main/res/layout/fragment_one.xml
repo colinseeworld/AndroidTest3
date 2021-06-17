@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#e1f1dd"
+android:orientation="vertical"
+android:padding="25dp">
+
+<EditText
+    android:id="@+id/edit_text_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your name" />
+
+<EditText
+    android:id="@+id/edit_text_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your email" />
+
+<EditText
+    android:id="@+id/edit_text_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your phone" />
+
+<Button
+    android:id="@+id/next"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Next" />
+
+</LinearLayout>
